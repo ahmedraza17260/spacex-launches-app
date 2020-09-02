@@ -1,11 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
 import { AppBar, Toolbar, Button } from '@material-ui/core'
-import Brightness6Icon from '@material-ui/icons/Brightness6';
 import { Link } from 'react-router-dom';
-type Props = {
-    toggle: () => void;
-}
 const Navigation = () => {
 
     return (

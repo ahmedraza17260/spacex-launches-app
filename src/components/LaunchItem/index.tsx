@@ -1,8 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import Link from '@material-ui/core/Link';
-import { Card, CardContent, Typography, makeStyles, Button, CardActions, Avatar, CardHeader, IconButton, CardMedia } from '@material-ui/core';
+import { Card, Button, CardActions, Avatar, CardHeader, CardMedia } from '@material-ui/core';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 
@@ -14,8 +12,6 @@ const LaunchItem: React.FC<Props> = ({ launch }) => {
     const {
         launch_year,
         mission_name,
-        rocket: { rocket_name },
-        launch_success,
         links: { mission_patch_small, flickr_images }
     } = launch;
 
